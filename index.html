@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
     <link rel="stylesheet" href="css/reset.css" />
@@ -16,57 +17,53 @@
     <title>Frontend Mentor | Base Apparel coming soon page</title>
   </head>
   <body>
-    <section class="container">
-      <!-- seccion 1 -->
-      <img class="container__logo" src="./images/logo.svg" alt="Base Apparel" />
+    <div class="wrapper" role="group">
+      <section class="container" role="article">
+        <header role="banner" class="container__logo">
+          <p><img src="./images/logo.svg" alt="Company Logo" /></p>
+        </header>
+        <div role="img" class="container__picture">
+          <p><img src="./images/hero-mobile.jpg" alt="Image Hero" /></p>
+        </div>
+        <main role="main" class="container__content">
+          <h1 class="container__content__title">
+            <span class="container__content__title--red-color">We're</span>
+            Coming Soon
+          </h1>
 
-      <!-- seccion 2 -->
-      <img
-        class="container__picture"
-        src="./images/hero-mobile.jpg"
-        alt="Hero Image"
-      />
-
-      <!-- seccion 3 -->
-      <div class="container__content">
-        <h1 class="container__content__title">
-          <span class="container__content__title--red-color">We're</span> Coming
-          Soon
-        </h1>
-
-        <p class="container__content_description">
-          Hello fellow shoppers! We're currently building our new fashion store.
-          Add your email bellow to stau up-to-date with announcements and our
-          launch deals.
-        </p>
-
-        <form action="" class="container__content__form">
-          <input
-            type="email"
-            class="container__content__form__email"
-            placeholder="Email Address"
-          />
-          <input
-            type="image"
-            src="./images/icon-arrow.svg"
-            class="container__content__form__button"
-          />
-          <p class="container__content__form__email--error">
-            <!-- Please provide a valid email message-->
+          <p class="container__content_description">
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email bellow to stau up-to-date with announcements
+            and our launch deals.
           </p>
-        </form>
-      </div>
-    </section>
 
-    <footer>
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Max Vázquez</a>.
-      </p>
-    </footer>
-
+          <form action="#" class="container__content__form">
+            <input
+              type="email"
+              placeholder="Email Address"
+              class="container__content__form__email"
+            />
+            <input
+              type="image"
+              src="./images/icon-arrow.svg"
+              alt="Icon Arrow"
+              class="container__content__form__button"
+            />
+            <p class="container__content__form__email--error">
+              <!-- This element insert the error message "Please provide a valid email" from main.js file -->
+            </p>
+          </form>
+        </main>
+      </section>
+      <footer>
+        <p class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Max Vázquez</a>.
+        </p>
+      </footer>
+    </div>
     <script src="./js/main.js"></script>
   </body>
 </html>
