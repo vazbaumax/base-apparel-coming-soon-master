@@ -124,7 +124,7 @@ body {
   .container__logo {
     width: 160px;
     margin-left: 165px;
-    margin-bottom: 200px;
+    margin-bottom: 180px;
   }
 
   .container__picture {
@@ -142,7 +142,7 @@ body {
 
   .container__content__title {
     text-align: left;
-    font-size: 3rem;
+    font-size: 4em;
   }
 
   .container__content_description {
