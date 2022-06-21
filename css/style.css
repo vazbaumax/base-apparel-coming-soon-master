@@ -63,8 +63,8 @@ body {
 .container__content_description {
   text-align: center;
   margin: 0 32px 32px;
-  font-size: 0.9em;
-  line-height: 1.5em;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
 }
 
 .container__content__form {
@@ -106,14 +106,14 @@ body {
 }
 
 .container__content__form__email--error {
-  font-size: 0.9em;
+  font-size: 0.9rem;
   margin: 8px 0 0 14px;
   color: var(--Soft-Red);
 }
 
 /* ------------- Desktop ------------- */
 
-@media (min-width: 841px) {
+@media (min-width: 1440px) {
   .container {
     width: 1440px;
     height: 800px;
@@ -129,6 +129,7 @@ body {
 
   .container__picture {
     content: url(../images/hero-desktop.jpg);
+    height: 100%;
     position: absolute;
     right: 0;
     top: 0;
@@ -141,14 +142,14 @@ body {
 
   .container__content__title {
     text-align: left;
-    font-size: 3em;
+    font-size: 3rem;
   }
 
   .container__content_description {
     width: 100%;
     text-align: left;
     margin: 0;
-    line-height: 1.7em;
+    line-height: 1.7rem;
   }
 
   .container__content__form {
