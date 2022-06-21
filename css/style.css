@@ -129,8 +129,7 @@ body {
 
   .container__picture {
     content: url(../images/hero-desktop.jpg);
-    width: 610px;
-    height: 800px;
+    height: max-content;
     position: absolute;
     right: 0;
     top: 0;
